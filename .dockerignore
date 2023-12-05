@@ -1,0 +1,4 @@
+# Ignore everything...
+**/*
+# ..then unignore the only things we want in the build context.
+!ipstack_latlong.py
