@@ -39,6 +39,10 @@ access key. The [free account tier](https://ipstack.com/signup/free)
 has no cost, but offers only a limited number of lookups per month, and is
 less secure as it does not support encryption via HTTPS.
 
+If you use the free tier, you need to specify the `--base-url` as
+`http://api.ipstack.com` (note http, not https).
+
+
     usage: ipstack_latlong.py [-h] --access-key ACCESS_KEY [--base-url BASE_URL]
 			      [--output {plain,json}]
 			      IP_ADDR
